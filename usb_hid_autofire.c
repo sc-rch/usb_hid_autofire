@@ -93,11 +93,11 @@ int32_t usb_hid_autofire_app(void* p) {
                         break;
                     case InputKeyLeft:
                         if(autofire_delay > 0) {
-                            autofire_delay -= 10;
+                            autofire_delay -= 5;
                         }
                         break;
                     case InputKeyRight:
-                        autofire_delay += 10;
+                        autofire_delay += 5;
                         break;
                     default:
                         break;
